@@ -1,6 +1,4 @@
 <?php
-	namespace WhichBrowser;
-	
 	/*
 		Copyright (c) 2010-2014 Niels Leenheer
 
@@ -24,10 +22,7 @@
 		WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 	*/
 
-	require_once 'utilities.php';
-
 	define ('_BASEPATH_', dirname(__FILE__) . '/');
-
 
 	define ('TYPE_DESKTOP', 'desktop');
 	define ('TYPE_MOBILE', 'mobile');
