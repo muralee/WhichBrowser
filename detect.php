@@ -5,8 +5,8 @@
 	header("Pragma: no-cache");
 	header("Expires: 0"); 
 
-	include_once('libraries/utilities.php');
-	include_once('libraries/whichbrowser.php');
+	//include_once('src/utilities.php');
+	include_once('src/whichbrowser.php');
 		
 	$options = array('headers' => getallheaders());
 	if (isset($_REQUEST['ua'])) $options['useragent'] = $_REQUEST['ua'];
